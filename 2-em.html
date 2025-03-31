@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="2-em.css">
+    <title>Em</title>
+</head>
+<body>
+    <div id="banner">
+        <h2>sizing elements</h2>
+        <h3>//</h3>
+        <h1>em</h1>
+    </div>
+    <div id="blog">
+        <div class="post">
+            <article>
+            <strong>Incorporating relative sizing starts by...</strong>
+            <p>
+                using units other than pixels. One unit of measurement you can use in CSS
+                to create relatively-sized content is with the <i>em</i>, written as 
+                <span class="grey">em</span> in CSS.
+            </p>
+            <p>
+                Historically, using the em represented the width of a capital letter M
+                in the typeface and size being used. That is no longer the case.
+            </p>
+            <p>
+                Today, the em represents the font-size of the current element or the
+                default base font-size set by the browser if none is given. For example,
+                if the base font of a browser is 16px (which is normally the default size
+                of text in a browser), then 1em is equal tp 16px. 2em would equal 32px. etc.
+            </p>
+            <div class="image-container">
+                <img src="em-css-1.png">
+            </div>
+            </article>
+            <br>
+            <section>
+                <strong>In the example above...</strong>
+            <p>
+                No base font has been specified, there for the font size of the 
+                <span class="grey">heading</span> element will be set relative to the
+                default font size of the browser. Assuming the default font size is
+                16px, then the font size of the <span class="grey">heading</span>
+                element will be 32px.
+            </p>
+            <div class="image-container-2">
+                <img src="em-css-2.png">
+            </div>
+            <p>
+                The default example above shows how to use ems without relying on the 
+                default font size of the browser. Instead, a base font size
+                (<span class="grey">18px</span>) is defined for all text within the 
+                <span class="grey">splash-section</span> element. The second CSS
+                rule will set the font size of all <span class="grey">h1</span> elements 
+                inside of <span class="grey">splash-section</span> (18px). The resulting
+                font size of <span class="grey">h1</span> elements will be 27px.            </p>
+            </section>
+            <br>
+            <div class="image-container-video">
+                <video src="em-instructions.mov" class="video" controls></video>
+            </div>
+            <!-- Adding comment to ensure no whitespace between inline-block div elements from HTML file. -->
+            
+        </div>
+    </div>
+</body>
+<footer>
+    Thanks for Visiting!
+</footer>
+</html>
