@@ -1,0 +1,115 @@
+/* Universal Styles */
+html {
+ display: inline;
+ background-image: url(istockphoto-1327974090-612x612.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+h1, 
+h2, 
+h3 {
+    color: ghostwhite;
+    display: inline;
+}
+/* Span Grey */
+.grey {
+    background-color: grey;
+}
+
+/* Image Container - Image */
+.image-container img {
+    height: 150px;
+    width: 700px;
+}
+
+.image-container-2 img {
+    height: 300px;
+    width: 700px;
+}
+
+.image-container-video video {
+    height: 300px;
+    width: 700px;
+}
+/* Banner Section */
+#banner {
+    background-image:url(istockphoto-1327974090-612x612.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+
+#banner h1 {
+    font-family: 'Roboto, sans-serif';
+    font-weight: 300;
+    color: white;
+}
+
+/* Blog Post */
+#blog {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blog .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.8;
+    color: #444444;
+}
+.post {
+    border: pink 1px solid;
+    padding: 10px;
+}
+
+article {
+    display: inline-block;
+    padding: 20px;
+    border: palevioletred 1px solid;
+    color: palevioletred;
+}
+
+section {
+    display: inline-block;
+    padding: 10px;
+    border: cornflowerblue 1px solid;
+    color: cornflowerblue
+}
+
+.post h3 {
+    color: #999999;
+}
+
+.post .opening-line {
+    margin-top: 4.1875rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.images .image-container {
+    display: inline-block;
+}
+
+/* Footer */
+footer {
+    padding: 4rem 0;
+    border-top: 1px solid #999999;
+    font-family: 'Roboto', sans-serif;
+
+    color: #999999;
+    text-align: center;
+}
